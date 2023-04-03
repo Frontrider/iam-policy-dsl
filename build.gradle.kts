@@ -16,7 +16,7 @@ object ProjectInfo {
     val scm = "scm:git:$url"
 }
 
-group = "com.github.lewisod"
+group = "com.github.Frontrider"
 version = ProjectInfo.version
 
 repositories {
