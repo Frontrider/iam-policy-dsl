@@ -5,7 +5,6 @@ plugins {
     id("org.jetbrains.dokka") version "1.4.20"
     `java-library`
     `maven-publish`
-    signing
 }
 
 object ProjectInfo {
@@ -93,8 +92,4 @@ publishing {
             }
         }
     }
-}
-
-with(signing) {
-    sign(publishing.publications.getByName("maven"))
 }
